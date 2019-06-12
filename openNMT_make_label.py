@@ -33,7 +33,7 @@ def blank_space(sentence):
     return zz_str
 
 if __name__ == '__main__':
-    #'train.csv' from deepspeech2.pytorch: https://github.com/SeanNaren/deepspeech.pytorch
+    #'train.csv' from deepspeech.pytorch: https://github.com/SeanNaren/deepspeech.pytorch
     fpath = '/your_path_to/train.csv'
     fn1 = './data/src-train.txt'
     file1 = open(fn1, 'w')
